@@ -1,0 +1,12 @@
+[Unit]
+Description=AutoRebooter - reboot if no internet
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/reboot_if_no_internet.py
+
+[Install]
+WantedBy=multi-user.target
+
+
+

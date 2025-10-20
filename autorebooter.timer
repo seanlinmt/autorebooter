@@ -1,0 +1,9 @@
+[Unit]
+Description=Run AutoRebooter periodically
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=30min
+
+[Install]
+WantedBy=timers.target
