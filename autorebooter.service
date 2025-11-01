@@ -1,5 +1,7 @@
 [Unit]
 Description=AutoRebooter - reboot if no internet
+After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=oneshot
