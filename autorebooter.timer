@@ -2,7 +2,7 @@
 Description=Run AutoRebooter periodically
 
 [Timer]
-OnBootSec=2min
+OnBootSec=10min
 OnUnitActiveSec=30min
 
 [Install]
